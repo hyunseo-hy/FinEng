@@ -1,6 +1,5 @@
 # KPI200-Index-Extraction
 
-"""
 <Logic>
 Step1. Reading the page source and Prettify
 * using urllib.request's urlopen : URL Reading
@@ -14,4 +13,3 @@ Step2. Extract the only data needed
 * Prices
 
 Step3. Save as a list
-"""
