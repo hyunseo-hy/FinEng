@@ -1,4 +1,7 @@
 # Financial Engineering
 
 <Purpose>
-learning how to crawl data, create in a data form and analyze it.
+Crawl data
+Make dataframe easy to deal with
+Anaylze the data
+Find some meaningful results
