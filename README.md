@@ -26,7 +26,7 @@ Python-for-Finance-Practice/
 - **02_data_scraping** — JSON 크롤링, 지수 데이터 추출
 - **03_financial_modeling** — 선형 회귀, K10 지수 분석, WTI 유가 분석, 결측값 처리
 
-## 🛠 사용 기술
+## 사용 기술
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
