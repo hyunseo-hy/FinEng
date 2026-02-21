@@ -1,33 +1,50 @@
 # Python for Finance Practice
 
-Python을 활용한 금융 데이터 분석 실습 저장소입니다.
+Practical Python exercises covering financial data collection, visualization, and modeling.
 
-## 구조
+## 📁 Project Structure
 
 ```
 Python-for-Finance-Practice/
-├── 01_basics/              # Python 기초 및 데이터 다루기
-│   ├── Dictionary.ipynb
-│   ├── mat_and_pandas.ipynb
-│   └── matplotlib.ipynb
-├── 02_data_scraping/       # 데이터 수집 및 크롤링
-│   ├── JSON_crawling.ipynb
-│   └── Index_extraction.ipynb
-└── 03_financial_modeling/  # 금융 모델링 및 분석
-    ├── Index_Linear_Regression.ipynb
-    ├── K10_Index.ipynb
-    ├── WTI.ipynb
-    └── Missing_Value_Imputation.ipynb
+├── 01_basics/
+│   ├── python_data_structures.ipynb        # Python dict, list, and data structure basics
+│   ├── numpy_and_pandas_basics.ipynb       # NumPy arrays and Pandas DataFrames
+│   └── data_visualization_matplotlib.ipynb # Charts and plots with Matplotlib
+├── 02_data_scraping/
+│   ├── stock_index_extraction.ipynb        # Extracting stock index data
+│   └── json_web_scraping.ipynb             # Web scraping with JSON APIs
+└── 03_financial_modeling/
+    ├── index_linear_regression.ipynb       # Linear regression on stock index data
+    ├── k10_index_analysis.ipynb            # K10 index analysis
+    ├── missing_value_imputation.ipynb      # Handling missing values in financial data
+    └── wti_crude_oil_analysis.ipynb        # WTI crude oil price analysis
 ```
 
-## 주요 내용
+## 📌 Topics Covered
 
-- **01_basics** — Pandas, NumPy, Matplotlib 기초 사용법
-- **02_data_scraping** — JSON 크롤링, 지수 데이터 추출
-- **03_financial_modeling** — 선형 회귀, K10 지수 분석, WTI 유가 분석, 결측값 처리
+- **Basics** — Core Python data structures, NumPy, Pandas, and Matplotlib
+- **Data Scraping** — JSON API calls, web crawling, and index data extraction
+- **Financial Modeling** — Linear regression, index analysis, missing value treatment, commodity price analysis
 
-## 사용 기술
+## 🛠 Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
+
+## 📦 Libraries
+
+| Library | Usage |
+|---|---|
+| `pandas` | Data loading, manipulation, and analysis |
+| `numpy` | Numerical arrays and matrix operations |
+| `matplotlib` | Data visualization and charting |
+| `sklearn` | Linear regression and machine learning models |
+| `bs4` (BeautifulSoup4) | HTML parsing for web scraping |
+| `urllib` | HTTP requests for data fetching |
+| `json` | JSON data parsing |
+| `datetime` | Date and time handling |
+| `re` | Regular expressions for text processing |
